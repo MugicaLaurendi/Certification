@@ -1,0 +1,4 @@
+quel modele ? qu'est ce qu'un modele Sequentiel ?
+
+quoiquest loss ?
+quoiquest optimizer ?
