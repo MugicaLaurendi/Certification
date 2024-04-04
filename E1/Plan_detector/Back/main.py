@@ -1,5 +1,5 @@
 from typing import Union
-from fastapi import FastAPI, File
+from fastapi import FastAPI, File, HTTPException
 
 
 import io
@@ -12,7 +12,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "Planes"}
 
 
 @app.get("/items/{item_id}")
@@ -23,9 +23,9 @@ def read_item(item_id: int, q: Union[str, None] = None):
 def get_segmentation_map(file: bytes = File(...)):
     """Get segmentation maps from image file"""
 
+    #if type(file) == bytes :
+        #raise HTTPException(status_code=402, detail=f"Empty file")
 
-    segmented_image = Detector.detector(file)
+    image_detected_bytes = Detector.detector(file)
 
-    bytes_io = io.BytesIO()
-    segmented_image.save(bytes_io, format="PNG")
-    return Response(bytes_io.getvalue(), media_type="image/png")
+    return Response(image_detected_bytes)

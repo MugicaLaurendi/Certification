@@ -5,6 +5,7 @@ import matplotlib.image
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from PIL import Image
+import io
 
 class Detector:
 
@@ -12,10 +13,11 @@ class Detector:
 
         def to_input(image_input):
 
-            image_input = Image.open(image_input)
+            image_input = Image.open(io.BytesIO(image_input))
 
             #print(os.path.join(image_input, file))
-            image = cv2.imread(image_input)
+            #image = cv2.imread(image_input)
+            image = np.array(image_input)
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
             return image
@@ -87,8 +89,16 @@ class Detector:
 
             #matplotlib.image.imsave('detector.png', image_predicted)
             #pass
+            img = Image.fromarray(image_predicted)
+            bytesIoObj = io.BytesIO()
 
-            return image_predicted.tobytes()
+            img.save(bytesIoObj, "PNG")
+            #bytesIoObj.seek(0)
+            #byteImg = bytesIoObj.read()
+            bytesio_img = bytesIoObj.getvalue()
+            #return image_predicted.tobytes()
+            return bytesio_img
+
 
 
 
