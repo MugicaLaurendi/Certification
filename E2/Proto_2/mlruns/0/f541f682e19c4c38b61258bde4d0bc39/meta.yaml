@@ -1,0 +1,15 @@
+artifact_uri: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/0/f541f682e19c4c38b61258bde4d0bc39/artifacts
+end_time: 1712331584855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f541f682e19c4c38b61258bde4d0bc39
+run_name: gentle-grouse-121
+run_uuid: f541f682e19c4c38b61258bde4d0bc39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712331494938
+status: 3
+tags: []
+user_id: root

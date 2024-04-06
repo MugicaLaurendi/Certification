@@ -1,0 +1,15 @@
+artifact_uri: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/0/bd3f5a7b1ece4844b324b529f40782d9/artifacts
+end_time: 1712331588679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd3f5a7b1ece4844b324b529f40782d9
+run_name: rebellious-calf-144
+run_uuid: bd3f5a7b1ece4844b324b529f40782d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712331584919
+status: 3
+tags: []
+user_id: root
