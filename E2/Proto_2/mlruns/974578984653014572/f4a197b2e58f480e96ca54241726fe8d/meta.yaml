@@ -1,0 +1,16 @@
+artifact_uri: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/f4a197b2e58f480e96ca54241726fe8d/artifacts
+deleted_time: 1712533069349
+end_time: 1712532218049
+entry_point_name: ''
+experiment_id: '974578984653014572'
+lifecycle_stage: deleted
+run_id: f4a197b2e58f480e96ca54241726fe8d
+run_name: RF
+run_uuid: f4a197b2e58f480e96ca54241726fe8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712532215440
+status: 3
+tags: []
+user_id: root

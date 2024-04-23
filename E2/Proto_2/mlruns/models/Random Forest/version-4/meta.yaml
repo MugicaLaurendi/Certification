@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1712531977466
+current_stage: None
+description: null
+last_updated_timestamp: 1712531977466
+name: Random Forest
+run_id: 81edde05c3714a85a8806abb2b8c1b45
+run_link: null
+source: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/81edde05c3714a85a8806abb2b8c1b45/artifacts/plane_price_model
+status: READY
+status_message: null
+storage_location: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/81edde05c3714a85a8806abb2b8c1b45/artifacts/plane_price_model
+user_id: null
+version: 4

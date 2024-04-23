@@ -1,6 +1,6 @@
 from typing import Union
 from fastapi import FastAPI, File, HTTPException
-
+import logging
 
 import io
 
@@ -9,6 +9,8 @@ from starlette.responses import Response
 
 app = FastAPI()
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 @app.get("/")
 def read_root():
@@ -21,11 +23,8 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 @app.post("/planedetector")
 def get_segmentation_map(file: bytes = File(...)):
-    """Get segmentation maps from image file"""
 
-    #if type(file) == bytes :
-        #raise HTTPException(status_code=402, detail=f"Empty file")
-
+    logger.info('Send')
     image_detected_bytes = Detector.detector(file)
 
     return Response(image_detected_bytes)

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1712532220736
+current_stage: None
+description: null
+last_updated_timestamp: 1712532220736
+name: Linear Regression
+run_id: b4716ff016b34811bbc0e414c8da3612
+run_link: null
+source: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/b4716ff016b34811bbc0e414c8da3612/artifacts/plane_price_model
+status: READY
+status_message: null
+storage_location: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/b4716ff016b34811bbc0e414c8da3612/artifacts/plane_price_model
+user_id: null
+version: 4

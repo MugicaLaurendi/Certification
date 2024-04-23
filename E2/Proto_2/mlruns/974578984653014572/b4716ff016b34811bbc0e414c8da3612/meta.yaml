@@ -1,0 +1,16 @@
+artifact_uri: file:///root/code/MugicaLaurendi/Certification/E2/Proto_2/mlruns/974578984653014572/b4716ff016b34811bbc0e414c8da3612/artifacts
+deleted_time: 1712533069343
+end_time: 1712532220741
+entry_point_name: ''
+experiment_id: '974578984653014572'
+lifecycle_stage: deleted
+run_id: b4716ff016b34811bbc0e414c8da3612
+run_name: LR
+run_uuid: b4716ff016b34811bbc0e414c8da3612
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712532218073
+status: 3
+tags: []
+user_id: root
